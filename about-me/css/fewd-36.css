@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-nav {
+    text-align: center;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transform: border-bottom 0.2s;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #27ae60;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/bartender.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: auto;
+    margin: 0;
+}
+
+body {
+font-family: lato;
+background: #ecf0f1;
+}
+            
+h1 {
+padding: 12px 14px;
+display: block;
+color: #ecf0f1;
+margin: 0;
+font-weight: 400;
+text-align: center;
+background-color: #2ecc71;
+
+}
+
+section {
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:hover,
+a:active {
+    color: #3498db;
+    border-bottom: 1px solid transparent;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
