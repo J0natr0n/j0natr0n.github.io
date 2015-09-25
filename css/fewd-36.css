@@ -37,11 +37,12 @@ html {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #27ae60;
 }
 
 .row {
-    margin: 0 auto;
+    margin: 0;
+
 }
 
 header {
@@ -54,18 +55,17 @@ header {
 }
 
 body {
-font-family: sans-serif;
+font-family: lato;
 background: #ecf0f1;
 }
             
 h1 {
-padding: 12px 24px;
+padding: 12px 14px;
 display: block;
-background-color: #3498db;
 color: #ecf0f1;
 margin: 0;
 font-weight: 400;
-text-align: center
+text-align: center;
 }
 
 section {
@@ -74,5 +74,6 @@ section {
 
 li {
     list-style: none;
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
