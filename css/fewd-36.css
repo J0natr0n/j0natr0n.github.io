@@ -67,6 +67,7 @@ margin: 0;
 font-weight: 400;
 text-align: center;
 background-color: #2ecc71;
+
 }
 
 section {
@@ -77,4 +78,15 @@ li {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+a:hover,
+a:active {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
 }

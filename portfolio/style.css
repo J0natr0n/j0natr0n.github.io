@@ -79,3 +79,14 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+a:hover,
+a:active {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
