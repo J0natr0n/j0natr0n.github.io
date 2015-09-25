@@ -64,7 +64,8 @@ display: block;
 background-color: #3498db;
 color: #ecf0f1;
 margin: 0;
-font-weight: 300;
+font-weight: 400;
+text-align: center
 }
 
 section {
