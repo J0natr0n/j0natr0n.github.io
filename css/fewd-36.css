@@ -20,7 +20,8 @@ html {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .main-nav li a:link,
@@ -40,7 +41,6 @@ html {
 }
 
 .row {
-    max-width: ;
     margin: 0 auto;
 }
 
