@@ -1,12 +1,63 @@
 /* Layout */
 /* ------------------------ */
 
-.wendy {
-    float: right;   
+ * {
+    margin: 10px 10px 10px 10px;
+    padding: 0;
 }
 
-.pbody {
-    float: left;
+header {
+    text-align: center;   
+}
+        
+footer {
+    text-align: center;
+    
+}
+    
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+        
+li {
+    display: inline-block;
+}
+
+body {
+    background: #7f8c8d;
+    padding: 20px;
+    border: 3px solid #fff;
+    margin: 20px;
+    width: 600px;
+}
+        
+p {
+    color: white;
+    padding-top: 20px;
+}
+        
+h1 {
+    color: white;
+    padding-left: 5px;
+}
+        
+h2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 2em;        
+}
+
+img {
+    border: 2px solid #fff;
+    padding: 3px;
+    float: right;
+    margin: 0;            
+}
+        
+p {
+    text-align: left;
+    line-height: 185%;
 }
 
 /* Headings */
