@@ -5,6 +5,9 @@
     float: right;   
 }
 
+.pbody {
+    float: left;
+}
 
 /* Headings */
 /* ------------------------ */
