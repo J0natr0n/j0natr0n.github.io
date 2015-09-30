@@ -50,6 +50,7 @@ header {
     background-position: center;
     height: 100vh;
     max-width: auto;
+    max-height: auto;
     margin: 0;
 }
 
