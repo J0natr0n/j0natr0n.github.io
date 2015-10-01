@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body {
+    width: 800px;
+}
+
+nav li {
+    display: inline-block;
+    float: right;
+    margin-top: 27px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #3498db;
+}
+
+h1 {
+    border-top: 2px solid #2ecc71;
+    padding-top: 10px;
+    color: #3498db;
+}
