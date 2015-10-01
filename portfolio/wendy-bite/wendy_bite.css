@@ -90,7 +90,6 @@ header {
 
 .jobs li{
     font-family: 'lato', sans-serif;
-    font-weight: 800;
     font-size: .8em;
 }
 
@@ -107,7 +106,15 @@ h3 {
     
 }
 
+.strong {
+    font-weight: 700;
+    font-size: 1.1em;
+}
 
+.soft {
+    color: #bfbfbf;
+    font-size: .9em;
+}
 /* Headings */
 /* ------------------------ */
 
