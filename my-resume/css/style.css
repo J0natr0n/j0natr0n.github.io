@@ -24,7 +24,6 @@ body {
     color: #3498db;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: %;
     border-bottom: 2px solid transparent;
     transform: border-bottom 0.2s;
 }
@@ -35,7 +34,7 @@ body {
     border-bottom: 2px solid #2ecc71;
 }
 
-li a {
+.main-nav li a {
     text-decoration: none;
     padding: 5px 15px 5px 15px;
     color: #3498db;
@@ -46,4 +45,42 @@ h1 {
     padding-top: 11px;
     color: #3498db;
     padding-left: 40px;
+}
+
+.sub-nav li {
+    display: inline-block;
+}
+
+.sub-nav li a {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    color: #3498db;
+    
+}
+
+.sub-nav li a:link,
+.sub-nav li a:visited{
+    color: #3498db;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transform: border-bottom 0.2s;
+}
+
+
+.sub-nav li a:hover,
+.sub-nav li a:active {
+    border-bottom: 2px solid #2ecc71;
+}
+
+p {
+    padding: 50px;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
 }
