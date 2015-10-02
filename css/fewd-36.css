@@ -2,10 +2,10 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
     font-family: 'lato', sans-serif;
-    margin-bottom: 15px;
 }
 
 
@@ -15,8 +15,13 @@ header a {
     font-size: 1.3em;
 }
 
-header a:hover,
-header a:active {
+.top-row a:link,
+.top-row a:visited {
+
+}
+
+.top-row a:hover,
+.top-row a:active {
     color: #fff;
 
 
@@ -24,8 +29,6 @@ header a:active {
 
 
 h1 {
-    border-bottom: 4px solid #2ecc71;
-    border-radius: 5%;
     padding: 15px;
     color: #3498db;
     text-align: center;
@@ -33,27 +36,21 @@ h1 {
 }
 
 footer {
-    padding: 40px;
-    display: inline-block;
+    display: inline;
     text-align: center;
-    margin-top: 18px;
-    border-top:  4px solid #2ecc71;
-    max-width: 1140px;
-    border-radius: 5%;
 }
 
 
 .sub-nav li {
     display: inline;
-    font-size: 2.8em;
+    font-size: 3em;
     
 }
 
 .sub-nav li a {
     text-decoration: none;
-    padding:
     color: #3498db;
-    padding: 4px 10px 5px 10px;
+    padding: 5px 15px 5px 15px;
     margin: 5px;
     
 }
@@ -70,8 +67,9 @@ footer {
 
 .sub-nav li a:hover,
 .sub-nav li a:active {
-    border: 4px solid #2ecc71;
-    border-radius: 25%;
+    border: 2px solid #2ecc71;
+    border-style: inset
+    border-radius: 5%;
 }
 
 
@@ -86,6 +84,10 @@ footer {
 .row {
     max-width: 1140px;
     padding-bottom: 30px;
+    border:  4px solid #2ecc71;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset
     
    
     
@@ -104,31 +106,31 @@ footer {
 
 .icon-small {
     display: inline-block;
-    width: 40px;
+    width: 45px;
     text-align: center;
     color: #3498db;
-    font-size: 90%;
-    margin-right: 10px
+    font-size: 70%;
     
     
     
     /*secret text and icon align*/
-    line-height: 120%;
+    line-height: 100%;
     vertical-align: middle;
-    margin-top: -6px;
+    margin-top: -7px;
 
 }
 
 .box {
     text-align: center;
+    padding: 15px 10px 15px 10px;
 }
 
 /*-----BUTTONS-----*/
 
 .btn {
     margin-left: 7px;
-    font-size: .8em;
-    font-weight: 500;
+    font-size: .7em;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
 }
