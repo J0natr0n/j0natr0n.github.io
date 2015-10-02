@@ -8,9 +8,6 @@ body {
     margin-bottom: 15px;
 }
 
-header {
-    margin: 3px;
-}
 
 header a {
     text-decoration: none;
@@ -27,7 +24,7 @@ header a:active {
 
 
 h1 {
-    border: 4px solid #2ecc71;
+    border-bottom: 4px solid #2ecc71;
     border-radius: 5%;
     padding: 15px;
     color: #3498db;
@@ -35,9 +32,6 @@ h1 {
     margin: 0;
 }
 
-h3 {
-    
-}
 
 .sub-nav li {
     display: inline;
@@ -85,6 +79,8 @@ footer {
 
 .row {
     max-width: 1140px;
+    padding-bottom: 30px;
+    
    
     
 }
@@ -93,6 +89,7 @@ footer {
 
 .icon-big {
     font-size: 300%;
+    padding: 10px 15px 10px 15px;
     display: inline-block;
     color: #2980b9;
 }
@@ -118,14 +115,14 @@ footer {
 
 .box {
     text-align: center;
-    padding: 15px;
 }
 
 /*-----BUTTONS-----*/
 
 .btn {
     margin-left: 7px;
-    font-size: .9em;
+    font-size: .8em;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
 }
