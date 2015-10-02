@@ -38,7 +38,10 @@ header a {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #2ecc71;
+    border: 2px solid #2ecc71;
+    border-radius: 10%;
+    height: 54px;
+    width: 54px;
 }
 
 .main-nav li a {
@@ -57,7 +60,7 @@ h1 {
 
 .sub-nav li {
     display: inline-block;
-    font-size: 180%;
+    font-size: 2.3em;
     padding-left: 10px;
     padding-right: 10px
 }
@@ -98,5 +101,32 @@ footer {
 
 .row {
     max-width: 1140px;
+    padding: 50px;
     
+}
+
+/*-----ICONS-----*/
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 60%;
+    margin-right: 10px
+    
+    
+    
+    /*secret text and icon align*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -6px;
+
 }
