@@ -10,6 +10,7 @@ body {
 
 header {
     margin: 25px;
+    
 }
 
 header a {
@@ -52,7 +53,8 @@ header a {
 
 h1 {
     border-top: 4px solid #2ecc71;
-    padding-top: 11px;
+    border-bottom: 4px solid #2ecc71;
+    padding: 15px;
     color: #3498db;
     text-align: left;
     margin: 0;
@@ -97,6 +99,9 @@ footer {
 
 .top-row{
     margin: 0 auto;
+    max-width: 1140px;
+
+    
 }
 
 .row {
@@ -129,4 +134,8 @@ footer {
     vertical-align: middle;
     margin-top: -6px;
 
+}
+
+.box {
+    padding: 30px;
 }
