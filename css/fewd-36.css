@@ -68,7 +68,7 @@ footer {
 .sub-nav li a:hover,
 .sub-nav li a:active {
     border: 2px solid #2ecc71;
-    border-style: inset
+    border-style: outset;
     border-radius: 5%;
 }
 
