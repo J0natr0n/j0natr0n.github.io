@@ -18,12 +18,12 @@ header a {
 }
 .main-nav {
     float: right;
-    margin-top: 28px;
+    margin-top: 30px;
+    font-size: 70%;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-right: 25px;
     
 }
 
@@ -39,8 +39,9 @@ header a {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border: 2px solid #2ecc71;
+    border: 3px solid #2ecc71;
     border-radius: 10%;
+    border-style: outset;
     height: 54px;
     width: 54px;
 }
@@ -58,6 +59,39 @@ h1 {
     color: #3498db;
     text-align: left;
     margin: 0;
+}
+
+.headline {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headline li {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+.headline li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.headline li a:link,
+.headline li a:visited {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transform: border-bottom 0.5s;
+}
+
+.headline li a:hover,
+.headline li a:active {
+    border: 2px solid #2ecc71;
+    border-radius: 10%;
+    border-style: outset;
+    height: 54px;
+    width: 54px;
+
 }
 
 .sub-nav li {
@@ -88,12 +122,13 @@ h1 {
 .sub-nav li a:active {
     border: 2px solid #2ecc71;
     border-radius: 10%;
+    border-style: outset;
     height: 54px;
     width: 54px;
 }
 
 footer {
-    margin-top: 50px;
+    padding: 6px;
     text-align: center;
 }
 
