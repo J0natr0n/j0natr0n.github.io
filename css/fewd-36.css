@@ -55,14 +55,13 @@ footer {
 
 .sub-nav li a {
     text-decoration: none;
-    color: #3498db;
     padding: 5px 10px 7px 10px;
     
 }
 
 .sub-nav li a:link,
 .sub-nav li a:visited{
-    color: #3498db;
+    color: #1abc9c;
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
@@ -72,8 +71,8 @@ footer {
 
 .sub-nav li a:hover,
 .sub-nav li a:active {
-    border: 2px solid #f1c40f;
-    border-radius: 25%;
+    color: #f1c40f;
+    
 }
 
 
@@ -108,7 +107,6 @@ footer {
     display: inline-block;
     width: 45px;
     text-align: center;
-    color: #1abc9c;
     font-size: 100%;
     
     
