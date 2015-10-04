@@ -1,26 +1,24 @@
 * {
-    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    background-color: solid black;
     
 }
 
-
-body {
+html {
     font-family: 'lato', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg) no-repeat center center fixed; 
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    max-width: auto;
-    margin: 0 auto;
 }
+
+    
+
 
 h2 {
     color: #fff;
     font-family: pacifico;
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
@@ -96,6 +94,10 @@ footer {
     
 }
 
+.row1 {
+    margin: 0 auto;
+}
+
 .row {
     max-width: 1000px;
     margin-bottom: 10px;
@@ -103,8 +105,8 @@ footer {
 
 .row2 {
     text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     
 }
 

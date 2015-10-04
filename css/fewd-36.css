@@ -6,14 +6,10 @@
 }
 
 
-body {
+html {
     font-family: 'lato', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/stars.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/stars.jpeg) no-repeat center center fixed; 
     background-size: cover;
-    background-position: center;
-    height: 100vh;
-    max-width: auto;
-    margin: 0;
 }
 
 
