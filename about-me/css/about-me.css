@@ -1,0 +1,128 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html {
+    font-family: 'lato', sans-serif;
+}
+
+
+header {
+    font-family: pacifico;
+    font-size: 1.1em;
+    text-align: center;
+        
+}
+
+header a:link,
+header a:visited {
+    text-decoration: none;
+    color: #1abc9c;
+
+
+}
+
+header a:hover,
+header a:active {
+    color: #f1c40f;
+
+}
+
+
+footer {
+    display: inline;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+    color: #f1c40f;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.main-nav li a:link,
+.main-nav li a:visted {
+    color: #c0392b;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #f1c40f;
+    
+}
+
+.sub-nav li {
+    display: inline-block;
+    font-size: 3em;
+    margin: 20px;
+    
+}
+
+
+
+.sub-nav li a:link,
+.sub-nav li a:visited{
+    color: #1abc9c;
+}
+
+
+.sub-nav li a:hover,
+.sub-nav li a:active {
+    color: #f1c40f;
+    
+}
+
+
+
+
+/*-----ICONS-----*/
+
+.icon-med {
+    color: #1abc9c;
+}
+
+
+
+.icon-small {
+
+}
+
+.row {
+    text-align: center;
+    max-width: 800px;
+}
+
+.row2 {
+    text-align: left;
+    max-width: 800px;
+    padding: 20px 0px 20px 0px;
+}
+
+.row2 h3 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.row2 li {
+    list-style: none;
+   margin-bottom: 10px;
+}
+
+
+.box {
+
+}
