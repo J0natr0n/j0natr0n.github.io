@@ -4,8 +4,16 @@
     box-sizing: border-box;
     
 }
+
+
 body {
     font-family: 'lato', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(css/img/stars.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: auto;
+    margin: 0;
 }
 
 
@@ -20,14 +28,14 @@ header {
 header a:link,
 header a:visited {
     text-decoration: none;
-    color: #3498db;
+    color: #1abc9c;
 
 
 }
 
 header a:hover,
 header a:active {
-    color: #2ecc71;
+    color: #f1c40f;
 
 }
 
@@ -41,14 +49,14 @@ footer {
 .sub-nav li {
     display: inline;
     font-size: 3em;
+    margin: 25px;
     
 }
 
 .sub-nav li a {
     text-decoration: none;
     color: #3498db;
-    padding: 5px 15px 5px 15px;
-    margin: 5px;
+    padding: 5px 10px 7px 10px;
     
 }
 
@@ -64,26 +72,23 @@ footer {
 
 .sub-nav li a:hover,
 .sub-nav li a:active {
-    border: 2px solid #2ecc71;
-    border-style: outset;
-    border-radius: 5%;
+    border: 2px solid #f1c40f;
+    border-radius: 25%;
 }
 
 
 
 .top-row{
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1000px;
 
     
 }
 
 .row {
-    max-width: 1140px;
-    border:  4px solid #2ecc71;
-    margin-bottom: 20px;
-    border-radius: 7px;
-    border-style: outset;
+    max-width: 1000px;
+    padding: 20px 20px 30px 20px;
+
     
    
     
@@ -92,9 +97,9 @@ footer {
 /*-----ICONS-----*/
 
 .icon-big {
-    font-size: 4em;
+    font-size: 4.5em;
     display: inline;
-    color: #2980b9;
+    color: #1abc9c;
 }
 
 
@@ -103,8 +108,8 @@ footer {
     display: inline-block;
     width: 45px;
     text-align: center;
-    color: #3498db;
-    font-size: 70%;
+    color: #1abc9c;
+    font-size: 100%;
     
     
     
@@ -127,7 +132,7 @@ footer {
     text-transform: uppercase;
     font-size: .7em;
     padding: 5px;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .btn:link,
@@ -141,8 +146,8 @@ footer {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #2ecc71;
-    border: 1px solid #27ae60;
+    background-color: #c0392b;
+    border: 2px solid #f1c40f;
     color: #fff;
 }
 
@@ -154,12 +159,12 @@ footer {
 
 .btn:hover,
 .btn:active {
-    background-color: #3498db;
+    background-color: #f1c40f;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 2px solid #2ecc71;
+    border: 2px solid #d35400;
 }
 
 .btn-ghost:hover,
