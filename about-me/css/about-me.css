@@ -65,7 +65,7 @@ p {
 
 .main-nav li {
     display: inline-block;
-    color: #f1c40f;
+    color: #1abc9c;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -74,7 +74,7 @@ p {
 
 .main-nav li a {
     text-decoration: none;
-    color: #1abc9c;
+    color: #f1c40f;
 }
 
 .main-nav li a:link,
@@ -85,8 +85,12 @@ p {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    color: #f1c40f;
+    color: #c0392b;
     
+}
+
+.main-nav li:first-child {
+    font-family: pacifico;
 }
 
 .sub-nav li {
