@@ -18,6 +18,13 @@ header {
         
 }
 
+h3 {
+    text-transform: uppercase;
+    color: #1abc9c;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 header a:link,
 header a:visited {
     text-decoration: none;
@@ -36,6 +43,10 @@ header a:active {
 footer {
     display: inline;
     text-align: center;
+}
+
+p {
+
 }
 
 .main-nav li {
@@ -94,28 +105,16 @@ footer {
     color: #1abc9c;
 }
 
-
-
-.icon-small {
-
+.icon-big {
+    font-size: 3em;
 }
+
 
 .row {
     text-align: center;
     max-width: 800px;
 }
 
-.row2 {
-    text-align: left;
-    max-width: 800px;
-    padding: 20px 0px 20px 0px;
-}
-
-.row2 h3 {
-    text-align: center;
-    padding: 20px;
-
-}
 
 .row2 li {
     list-style: none;
@@ -124,5 +123,6 @@ footer {
 
 
 .box {
+    padding: 10px;
 
 }
