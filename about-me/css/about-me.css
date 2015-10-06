@@ -60,7 +60,7 @@ p {
 .row img:hover {
     border-color: #c0392b;
     opacity: 1;
-    transform: scale(1.03);
+    transform: scale(1.13);
 }
 
 .main-nav li {
@@ -139,6 +139,7 @@ p {
 }
 
 .box {
-    padding: 5px;
+    padding: 15px;
 
 }
+
