@@ -114,6 +114,10 @@ p {
     
 }
 
+.facts li {
+    list-style: none;
+}
+
 
 
 
