@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: lato;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/palms.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+
+section a {
+    color: #f1c40f;
+    font-size: 4em;
+    padding: 5px;
+    padding: 0px;
+
+}
+
+
+footer a:link,
+footer a:visited {
+    color: #1abc9c;
+
+}
+
+header {
+    text-align: center;
+    color: #1abc9c;
+    font-family: pacifico;
+    padding: 20px;
+    font-size: 1.5em;
+    letter-spacing: .5px;
+}
+
+h1:hover {
+    color: #f1c40f;
+}
+
+section {
+    text-align: center;
+    max-width: 100%;
+}
+
+section li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 18px;
+    margin: 36px;
+
+}
+
+.icon-big:hover {
+    color: #c0392b;
+}
+
+section h3 {
+    margin-top: 5px;
+    padding: 9px;
+    display: flex;
+    flex: 3;
+    color: #fff;
+    font-size: 120%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+footer {
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    overflow:hidden;
+}
+
+footer li {
+    display: inline;
+    margin: 20px;
+    font-size: 3em;
+    
+}
+
+
+
+footer li a:hover {
+    color: #f1c40f;
+}
+
