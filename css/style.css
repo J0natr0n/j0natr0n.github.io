@@ -38,7 +38,7 @@ header {
     color: #1abc9c;
     font-family: pacifico;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.1em;
     letter-spacing: .5px;
 }
 
@@ -67,7 +67,6 @@ section a:hover {
 section h3 {
     margin-top: 5px;
     padding: 9px;
-    display: flex;
     flex: 3;
     color: #fff;
     font-size: 120%;
