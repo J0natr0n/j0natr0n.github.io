@@ -1,211 +1,100 @@
 * {
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: solid black;
-    
 }
 
 html {
-    font-family: 'lato', sans-serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg) no-repeat center center fixed; 
+    position: relative;
+    min-height: 100%;
+    font-family: lato;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg);
     background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
 }
 
 
+section a {
+    color: #f1c40f;
+    font-size: 4em;
+    padding: 5px;
+    padding: 0px;
 
-    
-
-
-h2 {
-    color: #fff;
-    font-weight: 300;
-    text-align: center;
-    font-family: pacifico;
 }
 
-h3 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: .9em;
-    
+
+footer a:link,
+footer a:visited {
+    color: #1abc9c;
+
 }
 
 header {
-    font-family: pacifico;
-    font-size: 1.1em;
     text-align: center;
-    padding: 10px;
-        
-}
-
-header a:link,
-header a:visited {
-    text-decoration: none;
     color: #1abc9c;
-
-
+    font-family: pacifico;
+    padding: 20px;
+    font-size: 1.5em;
+    letter-spacing: .5px;
 }
 
-header a:hover,
-header a:active {
+h1:hover {
     color: #f1c40f;
-
 }
 
+section {
+    text-align: center;
+    max-width: 100%;
+}
 
-footer {
-    
+section li {
+    list-style: none;
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 18px;
+    margin: 36px;
+
 }
 
-
-.sub-nav li {
-    display: inline;
-    font-size: 3em;
-    margin: 25px;
-    
-}
-
-.sub-nav li a {
-    text-decoration: none;
-    color: #3498db;
-    padding: 5px 10px 5px 10px;
-    
-}
-
-.sub-nav li a:link,
-.sub-nav li a:visited{
-    color: #1abc9c;
-    text-decoration: none;
-    transform: color 0.5s;
-}
-
-
-.sub-nav li a:hover,
-.sub-nav li a:active {
-    color: #f1c40f;
-}
-
-
-
-.top-row{
-    margin: 0 auto;
-    max-width: 1000px;
-
-    
-}
-
-.row {
-    max-width: 1000px;
-    margin-bottom: 10px;
-}
-
-.row2 {
-    text-align: center;
-    padding: 5px;
-    
-}
-
-.row2 li {
-    list-style: none;
-        
-}
-
-.row2 li a {
-    font-size: 4em;
-}
-
-.row2 li a:link,
-.row2 li a:visited {
-    color: #f1c40f;
-}
-
-.row2 li a:hover,
-.row2 li a:active {
+section a:hover {
     color: #c0392b;
 }
 
-/*-----ICONS-----*/
-
-.icon-big {
-    font-size: 4em;
-    display: inline;
-    color: #1abc9c;
+section h3 {
+    margin-top: 5px;
+    padding: 9px;
+    display: flex;
+    flex: 3;
+    color: #fff;
+    font-size: 120%;
+    font-family: 'Fjalla One', sans-serif;
 }
 
-
-
-.icon-small {
-    display: inline-block;
-    width: 45px;
+footer {
+    background-color: transparent;
+    position: absolute;
     text-align: center;
-    font-size: 100%;
-    
-    
-    
-    /*secret text and icon align*/
-    line-height: 100%;
-    vertical-align: middle;
-    margin-top: -7px;
-
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    overflow:hidden;
 }
 
-.icon-med {
+footer li {
+    display: inline;
+    margin: 20px;
     font-size: 3em;
+    
+}
+
+
+
+footer li a:hover {
     color: #f1c40f;
 }
 
-.box {
-    text-align: center;
-    padding: 5px 0px 10px 0px;
-}
-
-/*-----BUTTONS-----*/
-
-.btn {
-    font-family: lato;
-    text-transform: uppercase;
-    font-size: .7em;
-    padding: 5px;
-    max-width: 200px;
-}
-
-.btn:link,
-.btn:visited {
-    display: block;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.2s, border 0.2s, color 0.2;
-    
-}
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #c0392b;
-    border: 2px solid #f1c40f;
-    color: #fff;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
-}
-
-.btn:hover,
-.btn:active {
-    background-color: #f1c40f;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    border: 2px solid #d35400;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #2ecc71;
-    color: #fff;
-}

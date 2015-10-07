@@ -8,7 +8,7 @@ html {
     position: relative;
     min-height: 100%;
     font-family: lato;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/palms.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -60,7 +60,7 @@ section li {
 
 }
 
-section a:hover {
+.icon-big:hover {
     color: #c0392b;
 }
 
