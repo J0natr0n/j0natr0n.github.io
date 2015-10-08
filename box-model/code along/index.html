@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Layout code-along</title>
+<style>
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	line-height: 1.5;
+	margin: 20px 0;
+
+}
+
+.google {
+    position: relative;
+    margin: 10px auto;
+    width: 480px;
+    height: 270px;
+}
+
+.google img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+    
+.google h5 {
+    position: absolute;
+    color: #fff;
+    font-size: 1.5em;
+    top: 50px;
+    left: 30px;
+}
+    
+.google div {
+    position: absolute;
+    background: blue;
+    left: 10px;
+    bottom: 10px;
+    right: 200px;
+/*    width: 270px;*/
+    font-size: 10px;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h2>Absolute Positioning</h2>
+</div>
+    
+    
+    <div class="google">
+        <img src="img.jpg" width="480" height="270">
+
+        <h5>Hiring women is good for business</h5>
+    
+        <div>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+        </div>
+    </div>
+
+</body>
+</html>
