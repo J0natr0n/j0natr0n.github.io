@@ -6,25 +6,23 @@
 
 html {
     position: relative;
-    min-height: 100%;
     font-family: lato;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/work.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
 body {
     margin: 0 0 100px; /* bottom = footer height */
 }
 
-
-section a {
-    color: #f1c40f;
-    font-size: 4em;
-    padding: 5px;
-    padding: 0px;
-
+header {
+    text-align: center;
+    color: #1abc9c;
+    font-family: pacifico;
+    padding: 20px;
+    font-size: 1.1em;
+    letter-spacing: .5px;
 }
+
+
 
 
 footer a:link,
@@ -33,50 +31,106 @@ footer a:visited {
 
 }
 
-header {
+h2 {
     text-align: center;
-    color: #1abc9c;
-    font-family: pacifico;
-    padding: 20px;
-    font-size: 1.5em;
-    letter-spacing: .5px;
+    margin: 35px;
+
 }
 
-h1:hover {
+#hobbies h2 {
+    padding: 20px
+
+}
+
+h3 {
+    text-align: center;
+    color: #1abc9c;
+}
+
+#about-me p {
+    font-size: 1.5em;
+    max-width: 680px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.about-img img {
+    opacity: .9;
+    width: 200px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #c0392b;
+
+    
+}
+
+
+.about-img img:hover {
+    border: 3px solid #1abc9c;
+    transform: scale(1.15);
+    opacity: none;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+
+
+.clicker {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #1abc9c;
+    border: 2px solid #c0392b;
+    display: block;
+    border-radius: 50%;
+    height: 61px;
+    width: 61px;
+    font-size: 280%;
+    text-align: center;
+}
+
+.clicker a {
+    color: #1abc9c;
+}
+
+.clicker a:hover {
     color: #f1c40f;
 }
 
 section {
-    text-align: center;
-    max-width: 100%;
-}
-
-section li {
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    padding: 18px;
-    margin: 36px;
-
-}
-
-.icon-big:hover {
-    color: #c0392b;
-}
-
-section h3 {
-    margin-top: 5px;
-    padding: 9px;
-    display: flex;
-    flex: 3;
-    color: #fff;
-    font-size: 120%;
+    height: 100%;
+    width: 100%;
     font-family: 'Fjalla One', sans-serif;
+    margin-bottom: -36px;
+    padding-bottom: 10px;
+}
+
+
+#hobbies {
+    text-align: center;
+    display: block;
+}
+
+#hobbies p {
+    font-size: 1.5em;
+    max-width: 680px;
+    text-align: center;
+    padding: 40px;
+}
+
+#hobbies li {
+    display: inline-block;
+    margin: 50px;
+    font-size: 2em;
+}
+
+.row li {
+    display: block;
 }
 
 footer {
     background-color: transparent;
     position: absolute;
+    padding-top: 20px;
     text-align: center;
     left: 0;
     bottom: 0;
@@ -88,7 +142,7 @@ footer {
 footer li {
     display: inline;
     margin: 20px;
-    font-size: 3em;
+    font-size: 2em;
     
 }
 
