@@ -43,7 +43,7 @@ h1:hover {
 
 section {
     max-width: 1140px;
-    padding-top: 70px
+    padding-top: 50px
 
     
 }
@@ -61,6 +61,7 @@ section a:hover {
 
 section h3 {
     margin-top: 0px;
+    display: inline-block
     padding: 5px;
     color: #fff;
     font-size: 116%;
