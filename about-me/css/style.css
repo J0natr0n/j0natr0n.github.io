@@ -14,55 +14,76 @@ body {
     margin: 0 0 100px; /* bottom = footer height */
 }
 
-header {
+
+.name h1 {
     text-align: center;
-    color: #1abc9c;
     font-family: pacifico;
     padding: 20px;
-    font-size: 1.1em;
-    letter-spacing: .5px;
-}
-
-
-
-
-footer a:link,
-footer a:visited {
-    color: #1abc9c;
-
-}
-
-h2 {
-    text-align: center;
-    padding: 20px;
-
-}
-
-#hobbies {
-    font-family: 'fjalla one', sans-serif;
-}
-
-
-h3 {
-    text-align: center;
     color: #1abc9c;
 }
 
-p {
-    font-size: 1.5em;
-    max-width: 680px;
+.about p {
     text-align: center;
-    padding: 20px;
-
+    font-family: 'fjalla one', sans-serif;
+    line-height: 2;
+    padding: 45px;
+    font-size: .9em;
+    width: 700px auto;
 }
 
-#about-me {
+#hobbies h3 {
+    text-align: center;
+    font-family: 'fjalla one', sans-serif;
+    color: #1abc9c;
+    font-size: 2em;
+}
+
+#hobbies ul {
+    text-align: center;
     font-family: 'fjalla one', sans-serif;
 }
 
-.about-img img {
+#hobbies li {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 55px;
+}
+
+.icon-big {
+    font-size: 3em;
+    color: #c0392b;
+}
+
+.icon-big:hover {
+    color: #1abc9c;
+    transform: scale(1.45);
+    opacity: none;
+    transition: transform 1.0s, opacity 0.9s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about img {
     opacity: .9;
-    width: 200px;
+    width: 130px;
     display: block;
     border-radius: 50%;
     border: 2px solid #c0392b;
@@ -71,17 +92,25 @@ p {
 }
 
 
-.about-img img:hover {
+.about img:hover {
     border: 3px solid #1abc9c;
     transform: scale(1.15);
     opacity: none;
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 2.0s, opacity 0.5s;
+    box-shadow: 0 0 20px #f1c40f;
 }
 
-
+.more {
+    text-align: center;
+    display: block;
+    font-family: 'fjalla one', sans-serif;
+    font-size: 1.8em;
+    color: #c0392b;
+    text-transform: uppercase;
+}
 
 .clicker {
-    margin-top: 65px;
+    margin-top: 15px;
     margin-bottom: 65px;
     color: #1abc9c;
     border: 2px solid #c0392b;
@@ -89,9 +118,9 @@ p {
     border-radius: 50%;
     height: 61px;
     width: 61px;
-    font-size: 280%;
+    font-size: 300%;
     text-align: center;
-    padding: 1px 5px 5px 6px;
+    padding: 5px;
 }
 
 .clicker a {
@@ -102,31 +131,14 @@ p {
     color: #f1c40f;
 }
 
-#about-me {
-    height: 100%;
-    width: 100%;
-    margin-bottom: -36px;
-    padding-bottom: 10px;
-}
-
-#hobbies p {
-    font-size: 1.5em;
-    max-width: 680px;
-    text-align: center;
-    padding: 40px;
-}
-
- #hobbies li{
-    display: inline-block;
-    font-size: 2em;
-    margin: 30px;
-}
-
-#hobbies ul {
-    text-align: center;
-}
 
 
+
+
+
+
+
+/* do not touch this foot*/
 footer {
     background-color: transparent;
     position: absolute;
@@ -134,21 +146,20 @@ footer {
     text-align: center;
     left: 0;
     bottom: 0;
-    height: 75px;
+    height: 85px;
     width: 100%;
     overflow:hidden;
 }
-
 footer li {
     display: inline;
     margin: 20px;
-    font-size: 2em;
-    
+    font-size:2em; 
 }
+footer a:link,
+footer a:visited {
+    color: #1abc9c;
 
-
-
+}
 footer li a:hover {
     color: #f1c40f;
 }
-
