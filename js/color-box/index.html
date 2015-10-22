@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color Switcher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Color Scheme Switcher</h1>
+<ul>
+    <li class="olive">Olive</li>
+    <li class="salmon">Salmon</li>
+    <li class="burlywood">Burlywood</li>
+    <li class="thistle">Thistle</li>
+    </ul><br>
+<p>Try Clicking on one fo the colors above to change the colors on this page.</p>
+    
+<script>
+
+function changeColor(color) {
+
+    
+    var body = document.querySelector("body");
+    body.setAttribute("class", color);
+}
+    
+    
+</script>
+
+</body>
+</html>
+
+
