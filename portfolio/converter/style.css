@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    font-family: 'press start 2p', cursive;
+}
+
+input {
+    font-size:30pt;
+    height: 50px;
+    width: 300px;
+    border-radius: 6px;
+    text-align: center;
+    display: block;
+    background: #ecf0f1;
+}
+
+h2:first-child {
+    margin: 30px;
+    color: #3498db;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: #2ecc71;
+}
+
+.btn {
+    background: white;
+    font-size: 10pt;
+    margin-top: 30px;
+    font-family: 'press start 2p', cursive;
+}
+
+.btn:hover {
+    background: #2980b9;
+    color: #fff;
+}

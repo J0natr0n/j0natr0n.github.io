@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     padding: 20px;
     font-family: sans-serif;
+}
+
+p {
+    margin: 20px;
 }
 
 
@@ -30,6 +38,12 @@ li {
     background: olive;
 }
 
+.skyblue {
+    background: skyblue;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 10px, cornflowerblue 10px, cornflowerblue 20px);
+}
+
+
 .salmon {
     background: salmon;
 }
@@ -40,4 +54,8 @@ li {
 
 .thistle {
     background: thistle;
+}
+
+.scheme {
+    background: transparent;
 }
