@@ -4,42 +4,60 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 form {
+    margin-top: 100px;
     max-width: 600px;
-    padding: 20px;
-    font-family: 'press start 2p', cursive;
+    padding: 10px 10px 40px 10px;
+    border: 5px outset #16a085;
+    background: #f1c40f;
+    border-radius: 50px;
+    
 }
 
 input {
-    font-size:30pt;
-    height: 50px;
+    font-size:20pt;
+    height: 40px;
     width: 300px;
+    border: 2px inset white;
     border-radius: 6px;
     text-align: center;
     display: block;
     background: #ecf0f1;
+    font-family: 'Audiowide', cursive;
+    color: #c0392b;
 }
 
 h2:first-child {
-    margin: 30px;
-    color: #3498db;
+    margin: 20px;
+    color: #c0392b;
 }
 
 h2 {
     text-align: center;
     margin: 20px;
-    color: #2ecc71;
+    color: #1abc9c;
+    font-family: 'Audiowide', cursive;
 }
 
 .btn {
     background: white;
     font-size: 10pt;
     margin-top: 30px;
-    font-family: 'press start 2p', cursive;
+    width: 80px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px
 }
 
 .btn:hover {
-    background: #2980b9;
+    background: #c0392b;
     color: #fff;
+    border-style: groove;
 }
