@@ -16,9 +16,13 @@ form {
     margin-top: 100px;
     max-width: 600px;
     padding: 10px 10px 40px 10px;
-    border: 5px outset #16a085;
     background: #f1c40f;
+    border: 8px ridge #1abc9c;
     border-radius: 50px;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, border 0.3s;
     
 }
 
@@ -26,18 +30,21 @@ input {
     font-size:20pt;
     height: 40px;
     width: 300px;
-    border: 2px inset white;
-    border-radius: 6px;
+    border: 5px ridge #c0392b;
+    border-radius: 10px;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
     text-align: center;
     display: block;
     background: #ecf0f1;
-    font-family: 'Audiowide', cursive;
-    color: #c0392b;
+    transition: box-shadow 0.3s, border 0.3s;
 }
 
 h2:first-child {
     margin: 20px;
     color: #c0392b;
+    border-style: 
 }
 
 h2 {
@@ -45,19 +52,22 @@ h2 {
     margin: 20px;
     color: #1abc9c;
     font-family: 'Audiowide', cursive;
+    text-shadow: 2px 2px #000;
 }
 
 .btn {
     background: white;
-    font-size: 10pt;
+    font-size: 8pt;
+    text-transform: uppercase;
     margin-top: 30px;
     width: 80px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px
+    border-radius: 40px;
+    color: #c0392b;
+    font-family: 'Audiowide', cursive;
 }
 
 .btn:hover {
     background: #c0392b;
     color: #fff;
-    border-style: groove;
+    border-style: outset;
 }
