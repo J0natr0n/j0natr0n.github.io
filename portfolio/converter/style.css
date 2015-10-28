@@ -15,9 +15,9 @@ html {
 form {
     margin-top: 100px;
     max-width: 400px;
-    padding: 10px 10px 40px 10px;
+    padding: 10px 10px 22px 10px;
     background: #f1c40f;
-    border: 4px ridge #1abc9c;
+    border: 4px solid #1abc9c;
     border-radius: 50px;
     -webkit-box-shadow: 
       inset 0 0 8px  rgba(0,0,0,0.1),
@@ -27,19 +27,41 @@ form {
 }
 
 input {
-    font-size:20pt;
+    font-size:18pt;
     height: 40px;
     width: 300px;
-    border: 5px ridge #c0392b;
     border-radius: 10px;
-    -webkit-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1);
     text-align: center;
     display: block;
     background: #ecf0f1;
-    transition: box-shadow 0.3s, border 0.3s;
     
+}
+.icon-big {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    color: #c0392b;
+    text-shadow: 3px 2px #000;
+    width: 50px;
+}
+
+.icon-big:hover {
+    transform: scale(1.215);
+    transition: transform 2.0s, opacity 0.5s;
+    color: #1abc9c;
+}
+
+i:last-child {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px;
+    color: #c0392b;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 2px 2px #000;
 }
 
 h2:first-child {
@@ -75,9 +97,7 @@ h2 {
 }
 
 .btn:last-child {
-    padding: 6px;
     display: block;
     text-align: center;
-    border: 5px ridge #c0392b;
     border-radius: 30px;
-    
+}

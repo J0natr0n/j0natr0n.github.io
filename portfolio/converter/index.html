@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 <title>converter</title>
 </head>
@@ -12,14 +13,15 @@
 <body>
 <container>
 <form name="converter">
-    <h2>Temperature Converter</h2>
+    <i class="ion-thermometer icon-big"></i>
+    <h1>Temperature Converter</h1>
 <h2>Celsius</h2><input type="text" name="celsius" onChange="celsiusConverter()" placeholder="enter celsius temp.">
 
 <input type="button" value="Convert" class="btn"/>
     
 <h2>Fahrenheit</h2><input type="text" name="fahrenheit" onChange="fahrenheitConverter()" placeholder="enter fahrenheit temp.">
     
-<button onclick="reFresh()" class="btn">CLEAR</button>
+<button onclick="reFresh()" class="btn"><i class="ion-loop icon-small"></i></button>
 
 
     
