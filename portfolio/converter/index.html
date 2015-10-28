@@ -13,17 +13,25 @@
 <container>
 <form name="converter">
     <h2>Temperature Converter</h2>
-<h2>Celsius</h2><input type="text" name="celsius" onChange="celsiusConverter()">
+<h2>Celsius</h2><input type="text" name="celsius" onChange="celsiusConverter()" placeholder="enter celsius temp.">
 
 <input type="button" value="Convert" class="btn"/>
     
-<h2>Fahrenheit</h2><input type="text" name="fahrenheit" onChange="fahrenheitConverter()">
+<h2>Fahrenheit</h2><input type="text" name="fahrenheit" onChange="fahrenheitConverter()" placeholder="enter fahrenheit temp.">
+    
+<button onclick="reFresh()" class="btn">CLEAR</button>
 
 
     
 
 </form>
 </container>
+    
+<script>
+function reFresh() {
+    location.reload();
+}
+</script>
     
 <script src="interface.js"></script>
 </body>

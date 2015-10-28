@@ -14,7 +14,7 @@ html {
 
 form {
     margin-top: 100px;
-    max-width: 600px;
+    max-width: 400px;
     padding: 10px 10px 40px 10px;
     background: #f1c40f;
     border: 4px ridge #1abc9c;
@@ -39,6 +39,7 @@ input {
     display: block;
     background: #ecf0f1;
     transition: box-shadow 0.3s, border 0.3s;
+    
 }
 
 h2:first-child {
@@ -72,3 +73,11 @@ h2 {
     color: #fff;
     border-style: outset;
 }
+
+.btn:last-child {
+    padding: 6px;
+    display: block;
+    text-align: center;
+    border: 5px ridge #c0392b;
+    border-radius: 30px;
+    
