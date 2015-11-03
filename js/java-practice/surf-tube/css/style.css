@@ -1,0 +1,130 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    line-height: 1.6em;
+    color: #fff;
+    background: #e1e1e1 url(img/creampaper.jpg);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+#container {
+    width: 740px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+header span {
+    color: #dd2826;
+}
+
+section {
+    padding: 20px 20px 20px 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.fieldcontainer {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search-field {
+    width: 55%;
+    display: block;
+    padding: 11px 7px;
+    padding-right: 43px;
+    border: 1px solid #c8c8c8;
+    font-size: 1.6em;
+    border-bottom-color: #d2e2e7;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 3px #bdc3c7;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 2px #bdc3c7;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 3px #bdc3c7;
+}
+
+#search-btn {
+    position: absolute;
+    right: 180px;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    margin-top: 12px;
+    cursor: pointer;
+    opacity: 0.65;
+    background: transparent url(img/search.png) top;
+    background-size: cover;
+}
+#search-btn:hover {
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+#results li {
+    padding: 10px 0;
+    border-bottom: 1px #ccc dotted;
+    list-style: none;
+    overflow: auto;
+    margin: 10px;
+}
+
+.list-left {
+    float: left;
+    width: 20%;
+}
+
+.list-left img {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+.lsit-right {
+    float: right;
+    width: 78%;
+}
+
+.cTitle {
+    color:#c0392b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
