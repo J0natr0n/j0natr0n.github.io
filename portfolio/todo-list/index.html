@@ -5,6 +5,7 @@
     <title>todo list</title>
     <link rel="stylesheet" href="style.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   </head>
     
 <body>
@@ -14,21 +15,23 @@
         <h1>Todo List</h1>
     </header>
     <div class="task-list">
-        <h2>Task</h2>
-        <label>
-            <input class="username" placeholder="Task">
-        </label>
-        <h2>Date</h2>
-        <label>
-            <input class="comment" type="date" placeholder="mm/dd/yy">
-
-        </label>
-        <button>Add</button>     
+        
+            <div class="input-group col-xs-4">
+                <div class="input-group-addon">Task</div>
+                <input type="text" class="username input-lg">
+       
+            <div class="input-group-addon">Date</div>
+            <input class="comment input-lg" type="date" placeholder="mm/dd/yy">
+            </div>
+        
+        <button type="submit" class="btn-lg btn-primary">Add</button>    
     </div>
      <div class="results">
         <ul>
         </ul>
     </div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="scripts.js"></script>  
 </body>
 </html>
