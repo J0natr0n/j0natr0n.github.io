@@ -9,27 +9,40 @@
   </head>
     
 <body>
-    
-    
-    <header>
-        <h1>Todo List</h1>
-    </header>
-    <div class="task-list">
+
         
-            <div class="input-group col-xs-4">
-                <div class="input-group-addon">Task</div>
-                <input type="text" class="username input-lg">
-       
-            <div class="input-group-addon">Date</div>
-            <input class="comment input-lg" type="date" placeholder="mm/dd/yy">
+        
+        
+  <div class="container">
+      <header>
+            <h1>Todo List</h1>
+        </header>
+      <div class="row">
+            <div class="col-md-3 form-inline">
+                <input type="text" class="username input-lg form-control">
             </div>
+            <div class="col-md-3 form-inline">    
+                <input class="comment input-lg form-control" type="date" placeholder="mm/dd/yy">
+            </div>
+            <div class="col-md-3 form-inline">
+                <button type="submit" class="btn-lg btn-primary">Add</button>
+            </div>
+        </div>
+            <div class="row">
+                <ul>
+                </ul>
+            </div>
+</div>
         
-        <button type="submit" class="btn-lg btn-primary">Add</button>    
-    </div>
-     <div class="results">
-        <ul>
-        </ul>
-    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="scripts.js"></script>  
