@@ -51,5 +51,15 @@ p {
 }
 
 input:checked + label {
-    color: green; 
+    color: green;
+    text-decoration: line-through;
+}
+
+#check1 {
+    margin: 10px;
+
+}
+
+label {
+    margin: 10p
 }
