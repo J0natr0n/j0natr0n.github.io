@@ -22,6 +22,7 @@ li {
     font-size: 1.2em;
     color: #fff;
     padding: 20px;
+    list-style: none;
 }
 
 p {
