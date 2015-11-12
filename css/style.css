@@ -1,102 +1,45 @@
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-    position: relative;
-    min-height: 100%;
-    font-family: lato;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url(img/palms.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-body {
-    margin: 0 0 100px; /* bottom = footer height */
-    text-align: center;
 }
 
 header {
     text-align: center;
-    color: #1abc9c;
-    font-family: pacifico;
-    padding: 20px;
-    font-size: 1.1em;
-    letter-spacing: .5px;
-}
-h1:hover {
-    color: #f1c40f;
-}
-
-#container {
-    margin: 40px;
-}
-
-section li {
-    display: inline-block;
-    margin: 10%;
-}
-
-section a {
-    color: #f1c40f;
-    font-size: 4em;
 
 }
-section a:hover {
-    color: #c0392b;
-}
 
-section h3 {
-    display: block;
-    padding: 5px;
-    color: #fff;
-    font-size: 116%;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
-footer {
-    background-color: transparent;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 75px;
+html, body {
+    height: 100%;
     width: 100%;
-    overflow:hidden;
+    
 }
 
-footer li {
-    display: inline;
-    margin: 40px;
-    font-size: 2.5em;
+.main-nav {
+    margin-top: 170px;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
     
 }
 
 
 
-footer li a:hover {
-    color: #f1c40f;
+.flex {
+    margin-bottom: 20px;
 }
 
-footer a:link,
-footer a:visited {
-    color: #1abc9c;
-
+h2 {
+    font-size: .5em;
+}
+nav {
+    text-align: center;
 }
 
+nav a {
+    padding: 10px;
+    margin: 20px;
+    font-size: 2em;
+}
+
+nav:last-child {
+    padding-top: 5px;
+}
