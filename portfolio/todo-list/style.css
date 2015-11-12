@@ -52,15 +52,23 @@ p {
 }
 
 input:checked + label {
-    color: green;
+    color: red;
     text-decoration: line-through;
 }
 
 #check1 {
-    margin: 10px;
+    margin: 5px;
 
 }
 
 label {
-    margin: 10p
+    margin: 5px;
+}
+
+.list {
+    margin: 20px 0px;
+    background: #000;
+    opacity: 0.7;
+    border-radius:10px;
+    text-align: center;
 }
