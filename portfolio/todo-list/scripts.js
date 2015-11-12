@@ -1,5 +1,5 @@
 //structure
-var list        = document.querySelector("ul");
+var list        = document.querySelector("li");
 var button      = document.querySelector("button");
 var username    = document.querySelector(".username");
 var comment     = document.querySelector(".comment");
@@ -28,7 +28,7 @@ function addComment(e){
     var commentValue = comment.value;
     
     //step one; create element
-    var newItem = document.createElement("LI");
+    var newItem = document.createElement("DIV");
     
     
     
