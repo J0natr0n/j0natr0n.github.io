@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon-small {
+    font-size: 2em;
+}
+.navbar-fixed-bottom ul {
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.navbar-fixed-bottom li {
+    display: inline-block;
+    margin: 10px;
+}
+.contact {
+    margin-top: -20px;
+}
+
+.emailForm {
+	border:1px solid grey;
+	border-radius:10px;
+	padding-bottom:20px;
+}
+
+textarea {
+	height: 120px;
+}

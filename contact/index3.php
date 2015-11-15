@@ -1,3 +1,59 @@
+<?php 
+
+	if ($_POST["submit"]) {
+	
+		$result='<div class="alert alert-success">Form submitted</div>';
+	
+		if (!$_POST['name']) {
+		
+			$error="<br />Please enter your name";
+			
+		}
+		
+		if (!$_POST['email']) {
+		
+			$error.="<br />Please enter your email";
+			
+		}
+		
+		if (!$_POST['comment']) {
+		
+			$error.="<br />Please enter your message";
+			
+		}
+		
+		if ($_POST['email']!="" AND !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+			$error.="<br />Please use a valid email address";
+		}
+		
+		if ($error) {
+		
+		$result='<div class="alert alert-danger"><strong>Error(s) in form:</strong> '.$error.'</div>';
+		
+		} else {
+		
+			if (mail("ortiz6499@gmail.com", "Message from website", "Name: ".$_POST['name']."
+			
+			Email: ".$_POST['email']."
+			
+			Comment: ".$_POST['comment'])) {
+			
+				$result='<div class="alert alert-success"><strong>Thank You</strong>I\'ll be in touch.</div>';
+			
+				} else {
+				
+				$result='<div class="alert alert-danger">Sorry, there was an error sending your message, please try again later.</div>';
+				
+				}
+			
+		
+		}
+	
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,8 +88,8 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav navbar-right">
-<li class="active"><a href="#div1">Home</a></li>
-<li><a href="http://www.the1perspective.com/jonatron/database/contact.php">Contact</a></li>
+<li><a href="#div1">Home</a></li>
+<li class="active"><a href="#div2">Contact</a></li>
 <li><a href="#div3">About</a></li>
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fewd-36 <span class="caret"></span></a>
@@ -51,6 +107,69 @@
 </nav>
 </header>
 
+<div>
+   
+<div class="container"> 
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 emailForm">
+			<h1>Get in Touch</h1>
+			
+			<?php echo $result; ?>
+			
+			<p class="lead">I will get back to you soon.</p>
+			
+			<form method="post">
+				
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>" />
+				</div>
+				
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $_POST['email']; ?>" />
+				</div>
+				
+				<div class="form-group">
+					<label for="comment">Message:</label>
+					<textarea class="form-control" name="comment" value="<?php echo $_POST['comment']; ?>"></textarea>
+				</div>
+				
+				<input type="submit" name="submit" class="btn btn-success btn-block" value="Submit" />
+			
+	
+			</form>
+			
+			
+		</div>
+	</div>
+</div>
+    
+    
+    
+    
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
 <div class="container">
 <ul>
