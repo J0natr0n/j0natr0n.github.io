@@ -1,3 +1,59 @@
+<?php 
+
+	if ($_POST["submit"]) {
+	
+		$result='<div class="alert alert-success">Form submitted</div>';
+	
+		if (!$_POST['name']) {
+		
+			$error="<br />Please enter your name";
+			
+		}
+		
+		if (!$_POST['email']) {
+		
+			$error.="<br />Please enter your email";
+			
+		}
+		
+		if (!$_POST['comment']) {
+		
+			$error.="<br />Please enter your message";
+			
+		}
+		
+		if ($_POST['email']!="" AND !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+			$error.="<br />Please use a valid email address";
+		}
+		
+		if ($error) {
+		
+		$result='<div class="alert alert-danger"><strong>Error(s) in form:</strong> '.$error.'</div>';
+		
+		} else {
+		
+			if (mail("ortiz6499@gmail.com", "Message from website", "Name: ".$_POST['name']."
+			
+			Email: ".$_POST['email']."
+			
+			Comment: ".$_POST['comment'])) {
+			
+				$result='<div class="alert alert-success"><strong>Thank You</strong>I\'ll be in touch.</div>';
+			
+				} else {
+				
+				$result='<div class="alert alert-danger">Sorry, there was an error sending your message, please try again later.</div>';
+				
+				}
+			
+		
+		}
+	
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +73,7 @@
 </head>
 <body>
 <header>
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-inverse navbar-static-top">
 <div class="container-fluid">
 <!-- Brand and toggle get grouped for better mobile display -->
 <div class="navbar-header">
@@ -52,26 +108,46 @@
 </header>
 
 <div>
-
-    <?php
+   
+<div class="container"> 
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 emailForm">
+			<h1>Get in Touch</h1>
+			
+			<?php echo $result; ?>
+			
+			<p class="lead">I will get back to you soon.</p>
+			
+			<form method="post">
+				
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>" />
+				</div>
+				
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $_POST['email']; ?>" />
+				</div>
+				
+				<div class="form-group">
+					<label for="comment">Message:</label>
+					<textarea class="form-control" name="comment" value="<?php echo $_POST['comment']; ?>"></textarea>
+				</div>
+				
+				<input type="submit" name="submit" class="btn btn-success btn-block" value="Submit" />
+			
+	
+			</form>
+			
+			
+		</div>
+	</div>
+</div>
     
-        $emailTo="";
-        $subject="Holler";
-        $body="I think youre great";
-
-        if (mail($emailTo, $subject, $body, $headers)) {
-        
-            echo "Mail sent successfully!";
-            
-        } else {
-            echo "Mail not sent!";
-        }
-
-
-
-
-
-    ?>
+    
+    
+    
     
 </div>
     
@@ -94,7 +170,7 @@
     
     
     
-<nav class="navbar navbar-default navbar-fixed-bottom">
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
 <div class="container">
 <ul>
 <li class="#"><a href="#" alt="twitter"><i class="ion-social-twitter icon-small"></i></a></li>
