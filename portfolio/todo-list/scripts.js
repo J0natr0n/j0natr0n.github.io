@@ -33,7 +33,7 @@ function addComment(e){
     
     
     //step two; decorate the element
-    newItem.innerHTML = '<div>' + '<input type=\"checkbox\" id=\"check1\" />' + '<label for=\"check1\">'+ userNameValue + '</label>' + ' ' + commentValue +  '</div>';
+    newItem.innerHTML = '<div class=\"alert alert-success\">' + '<input type=\"checkbox\" id=\"check1\" />' + '<label for=\"check1\">'+ userNameValue + '</label>' + ' ' + commentValue +  '</div>';
     
     
     //step three; insert the element
