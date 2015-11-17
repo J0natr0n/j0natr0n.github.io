@@ -3,17 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-.icon-small {
-    font-size: 2em;
+
+h1{
+    margin-bottom: 15px;
 }
-.navbar-fixed-bottom ul {
+
+.selfie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: .8;
+}
+.img-span {
     text-align: center;
-    margin-top: 10px;
 }
-.navbar-fixed-bottom li {
-    display: inline-block;
-    margin: 10px;
+
+.about-text {
+    margin: 55px;
 }
-.contact {
+
+.about {
+    margin-top: 40px;
+}
+
+.main-container {
     margin-top: -20px;
+    background-color: lightgray;
+    width: 100%;
 }

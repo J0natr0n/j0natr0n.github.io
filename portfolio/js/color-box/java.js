@@ -16,17 +16,29 @@ color5.addEventListener("click", changeColor);
 
 scheme.addEventListener("click", changeColor);
 
+function handleClick(event) {
+    if (event.target.tagName === "UL") {
+        return;
+}
 
-function changeColor(event) {
     var swatch = event.target;
-    var color = swatch.className;
+    var color = swatch.getAttribute("class");
     
-    
+    var theme = { 'color': color }
+    changeColor(theme);
+}
+
+function pageLoad(event){
+    var theme = JSON.parse(localStorage.getItem('theme'));
+    changeColor(theme);
+}
+
+
+
+
+function changeColor(theme) {
     var body = document.querySelector("body");
-    body.setAttribute("class", color);
-    
+    body.className = theme.color;
     var name = document.querySelector("span");
-    name.textContent = color;
-    
-    console.log(name);
+    name.textContent = theme.color;
 }
