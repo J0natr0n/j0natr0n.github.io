@@ -1,41 +1,10 @@
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.gallery {
-    width: 62%;
-    margin: auto;
-}
-
-h1{
-    margin-bottom: 15px;
-}
-
-.img-span {
-    text-align: center;
-}
-
-.about-text {
-    margin: 55px;
-}
-
-.about {
-    margin-top: 40px;
-}
-
 /* Pseudo-elements -------------------------------- */
 
 
-p {
-    font-size: 1.5em;
+.intro::first-line {
+    font-weight: bold;
+    font-size: 1.4em;
 }
-
-.d-loads li {
-    list-style: none;
-}
-
 
 .intro::first-letter {
     float: left;
@@ -48,8 +17,8 @@ p {
     line-height: 1;
 }
 
-.pdf::before{
-    content: url(../project-1/img/icn-pdf.svg);
+.jpg::before{
+    content: url(../img/icn-picture.svg);
     margin-right: 8px;
 }
 .zip::before{
@@ -66,7 +35,7 @@ h1::after{
     border-radius: 50%;
     background-color: coral;
     margin: 0 10px;
-    content: attr(url)
+    content: attr(url=p\)
 }
 
 .d-loads a::after {
@@ -77,7 +46,6 @@ h1::after{
     margin-left: 5px;
 }
 
-.intro::first-line {
-    font-weight: bold;
-    font-size: 1.4em;
+.d-loads a {
+    border: solid 1px;
 }
