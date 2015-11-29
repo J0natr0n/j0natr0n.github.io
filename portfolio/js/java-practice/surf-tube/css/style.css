@@ -70,10 +70,10 @@ footer {
 
 #search-btn {
     position: absolute;
-    right: 180px;
+    right: 185px;
     top: 0px;
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     border: 0;
     margin-top: 12px;
     cursor: pointer;
@@ -106,7 +106,7 @@ footer {
     
 }
 
-.lsit-right {
+.list-right {
     float: right;
     width: 78%;
 }
@@ -115,6 +115,27 @@ footer {
     color:#c0392b;
 }
 
+.button-container {
+    margin-top: 25px;
+}
+
+.paging-button {
+    background: grey;
+    padding: 8px 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+}
+a:hover {
+    color:#c0392b;
+
+}
 
 
 
