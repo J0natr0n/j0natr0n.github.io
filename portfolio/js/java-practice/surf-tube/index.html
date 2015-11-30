@@ -23,8 +23,11 @@
             <h1>Surf-<span>Tube</span></h1>
             <p>Search all YouTube videos</p>
         </header>
+        
         <section>
-            <form id="search-form" name="search-form" onsubmit="return search()" class="form-inline">
+            <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form id="search-form" name="search-form" onsubmit="return search()" class="form-horizontal">
             <div class="form-group">
             <input type="search" id="query" class="search-field form-control input-lg" placeholder="search YouTube..">
                 </div>
@@ -35,7 +38,10 @@
             
             <ul id="results"></ul>
             <div id="buttons"></div>
+            </div>
+            </div>
         </section>
+        
         
         <footer>
             <p>Copyright &copy; 2015, All rights reserved</p>
