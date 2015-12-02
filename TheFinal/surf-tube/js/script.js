@@ -3,6 +3,28 @@ $(function() {
     var searchField = $('#query');
     var icon = $('#search-btn');
     
+    //focus handler
+    $(searchField).on('focus', function() {
+        $(this).animate( {
+            width:'100%'
+        }, 400);
+        $(icon).animate({
+            right: '10px'
+        }, 400);
+    });
+
+    //blue event handler
+    $(searchField).on('blur', function() {
+       if(searchField.val () == '') {
+            $(searchField).animate({
+                width: '100%'
+            }, 400, function(){});
+            $(icon).animate({
+                right: '180px'
+            }, 400, function(){});
+        }
+    });
+    
     $('#search-form').submit(function(e){
         e.preventDefault();
     });

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+    <title>Surf Tube</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".fancybox").fancybox();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1><span class="black"></span><span>Tube</span></h1>
+            <p>Search all YouTube videos</p>
+        </header>
+        
+        <section>
+            <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form id="search-form" name="search-form" onsubmit="return search()" class="form-horizontal">
+            <div class="form-group">
+            <input type="search" id="query" class="search-field form-control input-lg" placeholder="search YouTube..">
+                </div>
+                <div class="form-group">
+            <input type="submit" name="search-btn" id="search-btn" value="search" class="btn-success btn-lg btn-block">
+            </div>
+            </form>
+            
+            <ul id="results"></ul>
+            <div id="buttons"></div>
+            </div>
+            </div>
+        </section>
+        
+        
+        <footer>
+            <p>Copyright &copy; 2015, All rights reserved</p>
+        </footer>
+        
+    </div>
+</body>
+</html>

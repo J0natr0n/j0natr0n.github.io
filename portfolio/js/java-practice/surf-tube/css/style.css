@@ -18,6 +18,10 @@ a {
     margin: 0 auto;
 }
 
+.black {
+    color: black;
+}
+
 .clearfix {
     clear: both;
 }
@@ -33,7 +37,7 @@ header h1 {
 }
 
 header span {
-    color: #dd2826;
+    color: #c0392b;
 }
 
 section {
@@ -68,28 +72,29 @@ footer {
     width: 20%;
 }
 
-.list-left img {
-    width: 100%;
-    padding: 3px;
-    border: 1px solid #ccc;
-    
+h3 a {
+  color: #c0392b;  
 }
 
+.list-left img {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    
+}
 .list-right {
     float: right;
     width: 78%;
 }
-
 .cTitle {
     color:#c0392b;
+    font-weight: bold;
 }
-
 .button-container {
     margin-top: 25px;
 }
-
 .paging-button {
-    background: grey;
+    background: #c0392b;
     padding: 8px 13px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -100,6 +105,7 @@ footer {
 
 a {
     color: #fff;
+    font-size: 20px;
 }
 a:hover {
     color:#c0392b;
