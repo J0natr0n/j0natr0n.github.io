@@ -15,6 +15,10 @@ ul,li{
 	list-style:none;
 }
 
+a{
+    font-size: 20px;
+}
+
 #container{
 	width:60%;
 	margin:30px auto;
@@ -41,9 +45,9 @@ h1{
 .faq li.q{
 	background:#eee;
 	font-weight:bold;
-	font-size:120%;
 	border-bottom:1px #ddd solid;
 	cursor:pointer;
+    text-align: center;
 }
 
 .faq li.a{
